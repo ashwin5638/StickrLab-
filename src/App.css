@@ -1,0 +1,14 @@
+.container{
+  height: 120vh;
+}
+
+.sidebar{
+  margin-top: 0px;
+  margin-left: 660px;
+}
+.head{
+  font-size: 34px;
+  margin-left: 30px;
+  font-weight: bold;
+  color:  rgb(121, 113, 242);
+}
