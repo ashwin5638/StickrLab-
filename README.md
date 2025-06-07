@@ -11,13 +11,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +20,42 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧩 App Functionality
+MojiBoard lets users drag emoji stickers onto a canvas, arrange them freely with snap-to-grid precision, and remove any by double-clicking. Once the layout is complete, users can export the canvas as a high-quality PNG image — all in-browser, no design software needed.
 
-### `npm run eject`
+🎨 What This App Does
+MojiBoard is a playful emoji-based canvas app built with React and Konva.
+It allows users to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Drag and position emoji stickers on a canvas
+  
+    Snap stickers to a grid for alignment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Double-click to remove stickers
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Export the final design as a downloadable PNG image
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Perfect for creating fun visuals, emoji artboards, or lightweight mood posters — no design tools required.
 
-## Learn More
+✨ Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    🧲 Drag-and-Drop emojis onto a canvas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    📐 Snap-to-Grid placement for clean layout
 
-### Code Splitting
+    🖱️ Double-click to delete emojis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    🖼️ Download your canvas as a PNG
 
-### Analyzing the Bundle Size
+    ⚡ Built with React + React-Konva
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📦 Tech Stack
 
-### Making a Progressive Web App
+    React – Frontend UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    React-Konva – Canvas rendering
 
-### Advanced Configuration
+    Konva.js – HTML5 canvas library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    use-image – Image loading (if using stickers)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
